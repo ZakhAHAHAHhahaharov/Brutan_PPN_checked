@@ -1,0 +1,312 @@
+.header{
+    background-color: white;
+}
+
+.icon{
+    width: 120px;
+    height: 120px;
+    margin-right: 30px;
+}
+
+
+.Logo-text{
+    margin-left: 30px;
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.links{
+    display: flex;
+    margin-top: -65px;
+    justify-content: flex-end;
+}
+
+
+.tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.social-links:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.social-links img{
+    width: 75px;
+    height: 75px;
+}
+
+
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-wrapper{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+
+}
+
+
+.adults-top-wrapper{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 5px solid white;
+}
+
+
+.adults-top{
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+
+
+
+body{
+    background-color: orange;
+}
+
+
+.age{
+    width: 10%;
+    height: 10%;
+}
+
+.content-wrapper-urls{
+    padding-left: 150px;
+    font-size: 30px;
+
+}
+
+.links a{
+  text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+
+
+
+.content-wrapper-urls a{
+  text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+
+
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 400px;
+    padding-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-links{
+    font-size: 50pt;
+}
+
+.links-body{
+    text-align: center;
+}
+
+.container-links{
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 200px;
+    padding-bottom: 10%;
+}
+
+.link-haha{
+    font-size: 30pt;
+}
+
+.button-link {
+        background-size: cover;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: darkorange;
+    }
+
+
+.button-link:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+.about-header-wrapper{
+    padding: 30px;
+    padding-right: 0px
+}
+
+
+.about-text-wrapper{
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 800px;
+    font-size: 25px;
+    padding-right: 40px;
+}
+
+
+.about-header{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 30px;
+
+}
+
+
+main{
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: white;
+    text-align: center;
+    border-radius: 300px;
+}
+
+
+.about-text{
+    font-size: 27px;
+}
+
+
+.big-pivo-banka img{
+    height: auto;
+    display: block;
+    border-radius:100%;
+
+}
+
+
+.big-pivo-banka{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.pivo-possibilities-wrapper{
+
+}
+
+
+.pivo-possibilities-list{
+    flex:1;
+    margin-top: 20px;
+}
+
+
+.pivo-possibilities-list li{
+    padding-top: 10px;
+}
+
+
+.pivo-possibilities-list a{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.pivo-possibilities-list-text{
+    padding-top: 5px;
+    display: flex;
+}
+
+
+.header-news{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-blog{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-forum{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.registration-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.beer_royalty{
+    width: 30%;
+    margin-left: 10%;
+    border-radius: 300px;
+    border: 2px solid black;
+}
+
+.ppd-main-header{
+    font-family: sans-serif;
+}
+
+.username{
+    color: white;
+    font-family: sans-serif;
+}
